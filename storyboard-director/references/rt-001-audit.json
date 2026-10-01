@@ -1,0 +1,153 @@
+{
+  "case_id": "RT-001",
+  "source": {
+    "duration_sec": 10,
+    "action_required": true,
+    "dialogue": [
+      {"id": "L1", "speaker": "阿月", "text": "还有多远？我腿都酸了……"},
+      {"id": "L2", "speaker": "沈砚", "text": "快了，上面就是凉亭。"},
+      {"id": "L3", "speaker": "阿月", "text": "早知道不跟你上来了……"}
+    ]
+  },
+  "direction": {
+    "dominant_method": "D01",
+    "supporting_method": "D05",
+    "reason": "A two-person relationship beat ends in a destination reveal; the stair height carries their physical relationship.",
+    "shot_consequences": [
+      "Keep both people and uphill formation readable before using performance close views.",
+      "Use the lower-to-higher staircase and fixed ridge to stage the late pavilion reveal."
+    ]
+  },
+  "roles": {
+    "editor": {"status": "pass", "evidence": "Locked the 10-second beat order and three original dialogue lines."},
+    "director": {"status": "pass", "evidence": "D01 staging and reveal governs the relationship; D05 supports stair height and summit target."},
+    "drama": {"status": "pass", "evidence": "A-yue breathes, complains, hesitates, then accepts help; Shen Yan hears, turns, reassures, and checks her balance."},
+    "action": {"status": "pass", "evidence": "Reach, grasp, pull, higher step, and stable stance are visible before the final cut."},
+    "art": {"status": "pass", "evidence": "Proposed matched character sheets, 35mm wet mountain-road plates, same-side map, upper-left daylight, and fixed pavilion anchor."},
+    "storyboard": {"status": "pass", "evidence": "Five timed internal shots with distinct functions, camera moves, microperformance, light, sound, cut reasons, and linked states."},
+    "compiler": {"status": "pass", "evidence": "Five video sections preserve camera, blocking, performance, light, sound, transition, and exact locked dialogue."}
+  },
+  "shots": [
+    {
+      "id": "S1", "beat_id": "B1", "start_sec": 0, "end_sec": 2,
+      "function": "Establish uphill geography and front-back relationship.",
+      "method_impact": "D01 staging keeps both people in depth; D05 uses height on the steps.",
+      "camera": "35mm same-side low medium-wide, slow lateral follow stopping with A-yue.",
+      "blocking": "Shen Yan walks ahead and higher; A-yue follows behind and lower, then stops.",
+      "performance": "A-yue's shoulders sink and her gaze lifts from the steps to Shen Yan.",
+      "lighting_color": "Soft upper-left light, blue-gray wet stone, deep green forest, warm face bounce.",
+      "sound": "Wet footsteps, breath, near drips, and distant valley wind; her footstep stops.",
+      "cut_reason": "The stopped foot and opening line motivate her closer reaction view.",
+      "start_state": "Shen ahead high; A-yue behind low; both uphill; pavilion hidden.",
+      "end_state": "Shen ahead high; A-yue behind low stopped; pavilion hidden.",
+      "dialogue_ids": ["L1"]
+    },
+    {
+      "id": "S2", "beat_id": "B2", "start_sec": 2, "end_sec": 4,
+      "function": "Expose A-yue's fatigue and deliver the first complaint.",
+      "method_impact": "D01 moves from shared geography to one purposeful performance close view.",
+      "camera": "Same-side 50mm medium close; half-step push settles on raised eyes.",
+      "blocking": "A-yue stays on the lower step; Shen Yan remains higher at the frame edge.",
+      "performance": "She braces a hand on her knee, nostrils flare, brow pinches, and lower lip presses.",
+      "lighting_color": "Soft eye light on A-yue, cool blue-gray background, warm skin bounce.",
+      "sound": "Footsteps stop; breath comes forward while drips continue.",
+      "cut_reason": "Her complete complaint calls for Shen Yan's response.",
+      "start_state": "Shen ahead high; A-yue behind low stopped; pavilion hidden.",
+      "end_state": "Shen ahead high; A-yue behind low stopped after complaint; pavilion hidden.",
+      "dialogue_ids": ["L1"]
+    },
+    {
+      "id": "S3", "beat_id": "B3", "start_sec": 4, "end_sec": 6,
+      "function": "Show Shen Yan hearing her and answering with care.",
+      "method_impact": "D01 shoulder staging makes the response relational; D05 preserves the height gap.",
+      "camera": "Same-side over-shoulder view pans gently with his turn and stops at eye contact.",
+      "blocking": "A-yue's shoulder remains lower foreground; Shen Yan turns from the higher step and reaches down.",
+      "performance": "His brow relaxes, eyes check her leg then return to her face, and he gives a small nod.",
+      "lighting_color": "Warm bounce on his face against cool green trees; same upper-left daylight.",
+      "sound": "His step stops; voice moves forward over leaves and light wind.",
+      "cut_reason": "The extending hand carries the motion into the grasp view.",
+      "start_state": "Shen ahead high; A-yue behind low stopped after complaint; pavilion hidden.",
+      "end_state": "Shen high turned toward A-yue low; hand extended; pavilion hidden.",
+      "dialogue_ids": ["L2"]
+    },
+    {
+      "id": "S4", "beat_id": "B4", "start_sec": 6, "end_sec": 8,
+      "function": "Complete reach, grasp, pull, and stable result.",
+      "method_impact": "D01 keeps hands and faces together; D05 retains the step-height relationship.",
+      "camera": "Same-side 50mm two-shot tilts down to hands and rises with the pull, settling on both faces.",
+      "blocking": "Shen Yan braces high, A-yue grasps from below, steps up, and stands steady closer behind.",
+      "performance": "A-yue presses her lips, hesitates before contact, meets his eyes, then releases her shoulders.",
+      "lighting_color": "Upper-left soft light catches their hands; blue-gray wet stone and green forest remain stable.",
+      "sound": "Hand contact, wet step scrape, breath, cloth rub, nearby drips, and distant wind.",
+      "cut_reason": "Only the completed stable stance permits the destination wide; line tail may bridge.",
+      "start_state": "Shen high turned toward A-yue low; hand extended; pavilion hidden.",
+      "end_state": "Shen ahead high; A-yue steady and closer behind; pavilion hidden.",
+      "dialogue_ids": ["L3"]
+    },
+    {
+      "id": "S5", "beat_id": "B5", "start_sec": 8, "end_sec": 10,
+      "function": "Resume climb and reveal the fixed summit pavilion.",
+      "method_impact": "D01 lets their shared gaze reveal the target; D05 keeps it high ahead.",
+      "camera": "Same-side rear 35mm wide rises slowly with the climb, tilts to summit, and stops on shared gaze.",
+      "blocking": "Shen Yan leads; A-yue follows closer and steady; both look uphill as the pavilion emerges.",
+      "performance": "A-yue exhales and gives him a brief sideways glance; he checks her balance with one look.",
+      "lighting_color": "Soft upper-left light opens on ridge; distant slight warmth within the blue-gray and green grade.",
+      "sound": "Footsteps resume, breath settles, leaves lift, and far valley wind opens out.",
+      "cut_reason": "Pavilion becomes partial then fully visible; end on destination payoff.",
+      "start_state": "Shen ahead high; A-yue steady and closer behind; pavilion hidden.",
+      "end_state": "Shen ahead high; A-yue closer behind; pavilion visible high ahead.",
+      "dialogue_ids": ["L3"]
+    }
+  ],
+  "outputs": {
+    "character_prompts": [
+      "沈砚角色设定图：纯白底，左侧正面极近面部特写，右侧同一人物正面与背面全身；造型为提案，保持衣饰一致。",
+      "阿月角色设定图：纯白底，左侧正面极近面部特写，右侧同一人物正面与背面全身；造型为提案，保持衣饰一致。"
+    ],
+    "scene_prompts": [
+      "雨后山路35mm场景图：前景湿石，中景上山台阶，远景固定山脊；凉亭高处前方，前段被遮挡，末段同位置揭示。"
+    ],
+    "video_prompts": [
+      {
+        "shot_id": "S1",
+        "text": "0-2秒建立上山关系：35mm同侧低机位中远景慢侧跟，在阿月停步时停机。沈砚在前方高处，阿月在后方低处，肩膀下沉并抬眼。左上柔光照湿石，青灰与深绿。湿脚步和近处滴水，脚步停后切向她的脸。阿月开始说：还有多远？我腿都酸了……",
+        "evidence": {
+          "function": "建立上山关系", "method": "沈砚在前方高处，阿月在后方低处", "camera": "35mm同侧低机位中远景慢侧跟", "blocking": "沈砚在前方高处，阿月在后方低处", "performance": "肩膀下沉并抬眼", "lighting_color": "左上柔光照湿石，青灰与深绿", "sound": "湿脚步和近处滴水", "transition": "脚步停后切向她的脸"
+        }
+      },
+      {
+        "shot_id": "S2",
+        "text": "2-4秒阿月疲惫特写：同侧50mm中近景缓推到抬起的眼睛后停住。她仍在低处，手撑膝、鼻翼微张、眉心收紧，带埋怨说完：还有多远？我腿都酸了…… 眼部柔光，背景冷青灰；脚步停止后呼吸突出。台词落点切沈砚的反应。",
+        "evidence": {
+          "function": "阿月疲惫特写", "method": "台词落点切沈砚的反应", "camera": "同侧50mm中近景缓推到抬起的眼睛后停住", "blocking": "她仍在低处", "performance": "手撑膝、鼻翼微张、眉心收紧", "lighting_color": "眼部柔光，背景冷青灰", "sound": "脚步停止后呼吸突出", "transition": "台词落点切沈砚的反应"
+        }
+      },
+      {
+        "shot_id": "S3",
+        "text": "4-6秒过肩关系镜：同侧从低处阿月肩后看高处沈砚，轻摇随他回头并停在眼神相接处。他眉峰放松，视线看她的腿再回脸，轻声说：快了，上面就是凉亭。左上柔光给脸部暖反光，树林冷绿；脚步停、风吹叶。伸出的手带入下一镜。",
+        "evidence": {
+          "function": "过肩关系镜", "method": "从低处阿月肩后看高处沈砚", "camera": "轻摇随他回头并停在眼神相接处", "blocking": "从低处阿月肩后看高处沈砚", "performance": "眉峰放松，视线看她的腿再回脸", "lighting_color": "左上柔光给脸部暖反光，树林冷绿", "sound": "脚步停、风吹叶", "transition": "伸出的手带入下一镜"
+        }
+      },
+      {
+        "shot_id": "S4",
+        "text": "6-8秒双人拉起镜：同侧50mm双人中近景，俯跟两手再随拉起抬镜，停在两张脸同框。沈砚在高处踩稳，阿月从低处握手、上阶站稳；她先抿唇犹豫再抬眼，边起身边说：早知道不跟你上来了…… 左上柔光照手，湿石青灰、林色深绿；手掌接触与湿石擦步清晰。站稳后才切宽景，尾音可跨切点。",
+        "evidence": {
+          "function": "双人拉起镜", "method": "停在两张脸同框", "camera": "同侧50mm双人中近景，俯跟两手再随拉起抬镜", "blocking": "沈砚在高处踩稳，阿月从低处握手、上阶站稳", "performance": "先抿唇犹豫再抬眼", "lighting_color": "左上柔光照手，湿石青灰、林色深绿", "sound": "手掌接触与湿石擦步清晰", "transition": "站稳后才切宽景"
+        }
+      },
+      {
+        "shot_id": "S5",
+        "text": "8-10秒目的地揭示：同侧后方35mm宽景随上山缓升并轻仰，在两人共同望向山顶时停机。沈砚仍前高、阿月更近地跟在后方；她短促呼气侧看他一眼。左上柔光在青灰石面形成微亮，冷绿雾后略暖。脚步重起、远山风渐强；凉亭在固定高处8-9秒局部露出、9-10秒完整显现，结束。",
+        "evidence": {
+          "function": "目的地揭示", "method": "两人共同望向山顶", "camera": "同侧后方35mm宽景随上山缓升并轻仰", "blocking": "沈砚仍前高、阿月更近地跟在后方", "performance": "短促呼气侧看他一眼", "lighting_color": "左上柔光在青灰石面形成微亮，冷绿雾后略暖", "sound": "脚步重起、远山风渐强", "transition": "凉亭在固定高处8-9秒局部露出、9-10秒完整显现"
+        }
+      }
+    ]
+  },
+  "supervisor_reviews": {
+    "gate1": {"verdict": "pass", "evidence": "Locked script, D01/D05 choice, drama/action handoffs, and proposed art are coherent for text design."},
+    "gate2": {"verdict": "pass", "evidence": "Five shots cover 0-10 seconds with inherited states, distinct functions, and action completion before reveal."},
+    "gate3": {"verdict": "pass", "evidence": "Each shot has a corresponding video section with camera, performance, light/color, sound, transition, and all exact dialogue."}
+  }
+}
